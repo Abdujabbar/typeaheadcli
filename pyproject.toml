@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "typeahead"
+version = "0.1.0"
+description = ""
+authors = ["Abdujabbar MIRKHALIKOV <abdujabbar.mirkhalikov@prestataire.sewan.fr>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+
+[tool.poetry.scripts]
+typeahead="typeahead.scripts.typeahead:main"
